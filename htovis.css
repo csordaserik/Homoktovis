@@ -1,4 +1,5 @@
-body {background-image: url('hatter.png');
+body {
+  background-image: url('hatter.png');
   padding: 15px;
 }
 
@@ -8,7 +9,12 @@ h1 {
   margin: 0px 0px 10px;
 }
 
-h1, h2 {color:#eb7100;text-transform: uppercase;}
+h1,
+h2 {
+  color: #eb7100;
+  text-transform: uppercase;
+}
+
 p {
   text-align: justify;
 }
@@ -42,19 +48,18 @@ p:first-letter {
 }
 
 #bokor {
-  width: 550px;
-  border: 5px solid #eb7100;
+  width: 100px;
   float: left;
 }
 
 #termes {
   float: left;
-  height: 400px;
+  height: 100px;
   margin-right: 25px;
 }
 
 li {
-  margin: 3px 0px;
+  margin: 3px 80px;
   font-style: italic;
   list-style-image: url('bogyo.png');
 }
@@ -62,4 +67,7 @@ li {
 .blokktores {
   clear: both;
 }
-#bevezeto {width: 600px;}
+
+#bevezeto {
+  width: 600px;
+}
